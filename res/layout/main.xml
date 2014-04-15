@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<Button
+	android:id="@+id/startServerButton"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="启动普通服务"
+	/>
+<Button
+	android:id="@+id/sutdownServerButton"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="停止普通服务"
+	/>
+<Button
+	android:id="@+id/startBindServerButton"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="启动绑定服务服务"
+	/>
+<Button
+	android:id="@+id/sendBroadcast"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="发送广播"
+	/>
+<Button
+	android:id="@+id/notification"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="使用通知"
+	/>
+<Button
+	android:id="@+id/alarm"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text=" 打开闹钟"
+	/>
+<Button
+	android:id="@+id/handler"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text=" 打使用handler"
+	/>
+<Button
+	android:id="@+id/async"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text=" 使用异步加载"
+	/>	
+<Button
+	android:id="@+id/phonestate"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text=" 获取手机状态"
+	/>	
+<Button
+	android:id="@+id/callphone"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text=" 拨打电话"
+	/>
+<Button
+	android:id="@+id/vibrator"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text=" 使用震动"
+	/>
+	</LinearLayout>
+</ScrollView>
+
